@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## README for 3dCAP (1.0)
 
-You can use the [editor on GitHub](https://github.com/rootchang/3dCAP/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Introduction
+In the current rice breeding programs, morphological parameters e.g., plant height, leaf length and width, leaf angle, panicle architecture and tiller number during the grain filling stage are used as major selection targets. However, so far, there is no robust approach to quantitatively define the optimal parameter combinations that can lead to increased canopy radiation use efficiency (RUE) and grain yield. Here we develop a 3D canopy photosynthesis model (3dCAP), which effectively combines 3D canopy architecture, canopy vertical nitrogen distribution, ray tracing algorithm and leaf photosynthesis model. For the sake of users to perform basic canopy structure and canopy photosynthesis simulation, optimization of planting spacing and tiller number, optimization of plant architecture and etc, we develop a GUI for this model, i.e. RCDS. Concurrently, we developed an efficient workflow for parameterization of 3dCAP, i.e. the 3dPlant. Briefly, 3dCAP can predict daily canopy RUE for different rice cultivars under different weather. Using 3dCAP, one can explore the influence of canopy structural parameters, e.g., planting spacing, tiller number, tiller angle, leaf angle, leaf area index and plant height on canopy RUE. Overall, this new model has a potential to be used in rice ideotype design for improved canopy RUE.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Install
+1. Installation of MATLAB compiler runtime 9.1 [download link] (http://ssd.mathworks.com/supportfiles/downloads/R2016b/deployment_files/R2016b/installers/win64/MCR_R2016b_win64_installer.exe).
 
-### Markdown
+### Usage of RCDS
+A detailed user manual is provided in ./3dCAP/RCDS/
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rootchang/3dCAP/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Usage of 3dPlant
+A detailed user manual is provided in ./3dCAP/3dPlant/
 
 ### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Any bug is welcomed to report to 1664059681@qq.com.
