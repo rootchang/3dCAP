@@ -14,4 +14,4 @@ A detailed user manual is provided in ./3dCAP/RCDS/
 A detailed user manual is provided in ./3dCAP/3dPlant/
 
 ### Support or Contact
-Any bug is welcomed to report to 1664059681@qq.com.
+Any bug is welcomed to report to changtiangen@gmail.com
